@@ -1,8 +1,7 @@
 * {
     margin: 0;
-    padding: 0;
+    font-family: Arial;
     border: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -20,7 +19,7 @@
 }
 
 .logo {
-    background-image: url(amazon_logo.png);
+    background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -39,13 +38,13 @@
 .add-first {
     color: #cccccc;
     font-size: 0.85rem;
-    margin-left: 14px;
+    margin-left: 15px;
 
 }
 
 .add-second {
     font-size: 1rem;
-    margin-left: 2px;
+    margin-left: 3px;
 
 }
 
@@ -59,7 +58,6 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    /* background-color: red; */
     width: 620px;
     height: 40px;
     border-radius: 4px;
@@ -67,12 +65,13 @@
 }
 
 .search-select {
-    background-color: #E6E7E7;
+    background-color: #f3f3f3;
     width: 50px;
     text-align: center;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border: none;
+    /* outline: none; */
 }
 
 .search-input{
@@ -98,12 +97,7 @@
     border: 2px solid orange;
 }
 
-.search-select {
-    outline: none   ;
-}
-
 /* box4 */
-
 span {
     font-size: 0.7rem;
 
@@ -129,7 +123,7 @@ span {
 
 .pannel {
     height: 40px;
-    background-color: #232F3E;
+    background-color: #222f3d;
     display: flex;
     color: white;
     align-items: center;
@@ -230,7 +224,7 @@ footer {
 .foot-pannel2 {
     background-color: #222f3d;
     color: white;
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -256,7 +250,7 @@ ul a {
 }
 
 .logo {
-    background-image: url(amazon_logo.png);
+    background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -268,9 +262,6 @@ ul a {
     height: 80px;
     font-size: 0.7rem;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .pages {
